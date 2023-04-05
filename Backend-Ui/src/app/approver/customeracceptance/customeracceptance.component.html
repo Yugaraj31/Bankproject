@@ -1,0 +1,68 @@
+<app-navbar></app-navbar>
+
+<!-- aadharid
+: 
+"stsssring"
+accountstatus
+: 
+"0"
+address
+: 
+"string"
+approved
+: 
+null
+city
+: 
+"string"
+dob
+: 
+"string"
+emailid
+: 
+"strinsssg"
+gender
+: 
+"string"
+id
+: 
+3
+name
+: 
+"strissng"
+panid
+: 
+"string"
+password
+: 
+"string"
+phonenum
+: 
+"string"
+pincode
+: 
+"string"
+state
+: 
+"string" -->
+
+<div class="my">
+    <h1 class="jj">Approval Page</h1>
+    <h3>Name : {{customerDetails.name}}</h3>
+    <h3>Gender: {{customerDetails.gender}}</h3>
+    <h3>Email Id: {{customerDetails.emailid}}</h3>
+    <h3>Date Of Birth: {{customerDetails.dob}}</h3>
+    <h3>Address: {{customerDetails.address}}</h3>
+    <h3>City: {{customerDetails.city}}</h3>
+    <h3>State: {{customerDetails.state}}</h3>
+    <h3>Pincode: {{customerDetails.pincode}}</h3>
+    <h3>Aadhar No: {{customerDetails.aadharid}}</h3>
+    <h3>Pan No: {{customerDetails.panid}}</h3>
+    <br>
+    
+    <button class="btn btn-success" (click)="onClickAccept(customerDetails.id)">Accept</button>
+    &nbsp;
+    <button class="btn btn-danger" (click)="onClickReject(customerDetails.id)">Reject</button>
+
+
+</div>

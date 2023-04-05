@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CustomerService } from 'src/app/customer.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -22,13 +23,17 @@ export class SigninComponent {
   aadharid:string=""
   accountstatus:string=""
 
-  constructor(public cus:CustomerService){}
+  constructor(public cus:CustomerService,public route:Router){}
   mySubmit(){
     console.log(this.name,this.gender);
     const ss = new sigInObject(this.name,this.gender,this.phonenum,this.emailid,this.password,this.dob,this.address,this.state,this.city,this.pincode,this.panid,this.aadharid,"0")
     this.cus.SignInService(ss).subscribe(response =>{
       console.log(response);
     })
+    alert("SignIn Success");
+    this.route.navigate(["/customerlogin"]);
+
+
 
   }
 

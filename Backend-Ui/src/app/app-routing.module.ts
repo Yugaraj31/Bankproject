@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { SigninComponent } from './customer/signin/signin.component';
 import { LoginComponent } from './customer/login/login.component';
 import { AccountpageComponent } from './customer/accountpage/accountpage.component';
+import { CustomeracceptanceComponent } from './approver/customeracceptance/customeracceptance.component';
 
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'customerlogin',component:LoginComponent},
   {path:'customersignup',component:SigninComponent},
   {path:'customeraccount',component:AccountpageComponent},
+  {path:'customeraccept/:id',component:CustomeracceptanceComponent},
   {path:"",component:HomepageComponent},
 ];
 

@@ -1,61 +1,24 @@
 <app-customernav></app-customernav>
-<!-- aadharid
-: 
-"string"
-accountstatus
-: 
-"1"
-address
-: 
-"string"
-approved
-: 
-null
-city
-: 
-"string"
-dob
-: 
-"string"
-emailid
-: 
-"string"
-gender
-: 
-"string"
-id
-: 
-1
-name
-: 
-"string"
-panid
-: 
-"string"
-password
-: 
-"string"
-phonenum
-: 
-"string"
-pincode
-: 
-"string"
-state
-: 
-"string" -->
-<p>accountpage works!</p>
-<h1>{{UserDetails.name}}</h1>
-<h3>{{UserDetails.string}}</h3>
-<h3>{{UserDetails.phonenum}}</h3>
-<h3>{{UserDetails.emailid}}</h3>
-<h3>{{UserDetails.address}}</h3>
-<h3>{{UserDetails.city}}</h3>
-<h3>{{UserDetails.state}}</h3>
-<h3>{{UserDetails.panid}}</h3>
-<h3>{{UserDetails.aadharid}}</h3>
-<h1>{{UserDetails.accountstatus}}</h1>
+<h1>Customer Account Details</h1>
 
+<div class="mm">
+<h3>Name: {{UserDetails.name}}</h3>
+<h3>Gender: {{UserDetails.gender}}</h3>
+<h3>PhoneNo: {{UserDetails.phonenum}}</h3>
+<h3>EmailId: {{UserDetails.emailid}}</h3>
+<h3>Address: {{UserDetails.address}}</h3>
+<h3>City: {{UserDetails.city}}</h3>
+<h3>State: {{UserDetails.state}}</h3>
+<h3>PanNo: {{UserDetails.panid}}</h3>
+<h3>AadharNo: {{UserDetails.aadharid}}</h3>
+<div class="dd" >
+    <h2>Account Status</h2>
+<h3 class="ac" *ngIf="Accepted">Accepted</h3>   
+<h3 class="re" *ngIf="Rejected">Rejected</h3>
+<h3 class="un" *ngIf="UnApproved">UnApproved</h3>
+</div>
+
+</div>
 
 <!-- accountno
 : 
@@ -72,10 +35,10 @@ customerid
 id
 : 
 6 -->
-<div *ngIf="AccStatus">
+<div class="mm" *ngIf="AccStatus">
     
-    <h1>Account Details</h1>
-    <h2>{{AccDetails.accountno}}</h2>
-    <h2>{{AccDetails.accpin}}</h2>
+    <h3>Account Details</h3>
+    <h3>Account No - {{AccDetails.accountno}}</h3>
+    <h3>{{AccDetails.accpin}}</h3>
 
 </div>

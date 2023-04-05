@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SURYA\\OneDrive\\Desktop\\ProjectFinal\\bankproject\\bankproject\\bankproject.csproj": {}
+    "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SURYA\\OneDrive\\Desktop\\ProjectFinal\\bankproject\\bankproject\\bankproject.csproj": {
+    "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SURYA\\OneDrive\\Desktop\\ProjectFinal\\bankproject\\bankproject\\bankproject.csproj",
+        "projectUniqueName": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj",
         "projectName": "bankproject",
-        "projectPath": "C:\\Users\\SURYA\\OneDrive\\Desktop\\ProjectFinal\\bankproject\\bankproject\\bankproject.csproj",
-        "packagesPath": "C:\\Users\\SURYA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SURYA\\OneDrive\\Desktop\\ProjectFinal\\bankproject\\bankproject\\obj\\",
+        "projectPath": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SURYA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

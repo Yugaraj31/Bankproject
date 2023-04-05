@@ -8,12 +8,12 @@ import { ApproverhomeComponent } from './approver/approverhome/approverhome.comp
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CustomernavComponent } from './customer/customernav/customernav.component';
-import { ApprovernavComponent } from './approver/approvernav/approvernav.component';
 import { SigninComponent } from './customer/signin/signin.component';
 import { LoginComponent } from './customer/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AccountpageComponent } from './customer/accountpage/accountpage.component';
+import { CustomeracceptanceComponent } from './approver/customeracceptance/customeracceptance.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +23,10 @@ import { AccountpageComponent } from './customer/accountpage/accountpage.compone
     NavbarComponent,
     HomepageComponent,
     CustomernavComponent,
-    ApprovernavComponent,
     SigninComponent,
     LoginComponent,
-    AccountpageComponent
+    AccountpageComponent,
+    CustomeracceptanceComponent
   ],
   imports: [
     BrowserModule,

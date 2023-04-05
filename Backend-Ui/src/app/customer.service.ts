@@ -37,4 +37,21 @@ export class CustomerService {
     const url= `https://localhost:7165/api/Customer/GetCustomerAccountById/${id}`;
     return this.http.get<any>(url);
   }
+
+  public GetUnapprovedCustomers(){
+    const url = `https://localhost:7165/api/Customer/UnApprovedCustomers`;
+    return this.http.get<any>(url);
+  }
+
+  public GetParticularCustomer(id:number){
+    const url = `https://localhost:7165/api/Customer/GetCustomerById/${id}`
+    return this.http.get<any>(url);
+
+  }
+
+  public PutStatusCustomer(id:number,sts:string){
+    const url = `https://localhost:7165/api/Customer/UpdateStatus/${id}/${sts}`
+    return this.http.put<any>(url,null);
+
+  }
 }

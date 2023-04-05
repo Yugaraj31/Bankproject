@@ -1,2 +1,21 @@
-<p>approverhome works!</p>
-<h1>ksksksskkss</h1>
+<app-navbar></app-navbar>
+<h1>Welcome Approver</h1>
+<div class="main">
+<div *ngFor="let i of unApprovedCustomers">
+    
+    <a (click)="onClick(i.id)" class="my">
+    <h3>Name :{{i.name}}</h3>
+    &nbsp;
+    <h3>Email :{{i.emailid}}</h3>
+    &nbsp;
+
+    <h3>City :{{i.city}}</h3>
+    </a>
+    <br>
+    
+    
+</div>
+</div>
+
+
+

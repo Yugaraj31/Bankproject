@@ -15,7 +15,7 @@ export class CustomernavComponent {
   }
   isLoggedOut(){
     this.cus.isLogged = false;
-    this.route.navigate(['/customerhome']);
+    this.route.navigate(['']);
     
 
   }

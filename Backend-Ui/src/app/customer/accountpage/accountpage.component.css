@@ -1,0 +1,34 @@
+h1{
+    padding-top: 15px;
+    text-align: center;
+}
+.mm{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.dd{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    background-color:lavender ;
+    border-radius: 20px;
+
+}
+
+.ac{
+    color: green;
+}
+.un{
+    color: orange;
+}
+.re{
+    color: red;
+}
