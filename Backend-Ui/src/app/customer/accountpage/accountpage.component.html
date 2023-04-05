@@ -1,0 +1,81 @@
+<app-customernav></app-customernav>
+<!-- aadharid
+: 
+"string"
+accountstatus
+: 
+"1"
+address
+: 
+"string"
+approved
+: 
+null
+city
+: 
+"string"
+dob
+: 
+"string"
+emailid
+: 
+"string"
+gender
+: 
+"string"
+id
+: 
+1
+name
+: 
+"string"
+panid
+: 
+"string"
+password
+: 
+"string"
+phonenum
+: 
+"string"
+pincode
+: 
+"string"
+state
+: 
+"string" -->
+<p>accountpage works!</p>
+<h1>{{UserDetails.name}}</h1>
+<h3>{{UserDetails.string}}</h3>
+<h3>{{UserDetails.phonenum}}</h3>
+<h3>{{UserDetails.emailid}}</h3>
+<h3>{{UserDetails.address}}</h3>
+<h3>{{UserDetails.city}}</h3>
+<h3>{{UserDetails.state}}</h3>
+<h3>{{UserDetails.panid}}</h3>
+<h3>{{UserDetails.aadharid}}</h3>
+<h1>{{UserDetails.accountstatus}}</h1>
+
+
+<!-- accountno
+: 
+"3240981709595172"
+accpin
+: 
+null
+customer
+: 
+null
+customerid
+: 
+5
+id
+: 
+6 -->
+<div *ngIf="AccStatus">
+    
+    <h1>Account Details</h1>
+    <h2>{{AccDetails.accountno}}</h2>
+    <h2>{{AccDetails.accpin}}</h2>
+
+</div>
