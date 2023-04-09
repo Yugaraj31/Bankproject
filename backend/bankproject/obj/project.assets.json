@@ -3812,24 +3812,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/abdulaleem/.nuget/packages/": {}
+    "C:\\Users\\SURYA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj",
+      "projectUniqueName": "D:\\Demo\\Bankproject\\backend\\bankproject\\bankproject.csproj",
       "projectName": "bankproject",
-      "projectPath": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/bankproject.csproj",
-      "packagesPath": "/Users/abdulaleem/.nuget/packages/",
-      "outputPath": "/Users/abdulaleem/Documents/bankingproject/Bankproject/backend/bankproject/obj/",
+      "projectPath": "D:\\Demo\\Bankproject\\backend\\bankproject\\bankproject.csproj",
+      "packagesPath": "C:\\Users\\SURYA\\.nuget\\packages\\",
+      "outputPath": "D:\\Demo\\Bankproject\\backend\\bankproject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\SURYA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3896,7 +3898,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
